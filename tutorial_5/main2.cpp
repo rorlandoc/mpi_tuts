@@ -26,7 +26,6 @@ int main(int argc, char **argv)
     MPI_Init(nullptr, nullptr);
 
     int num = std::stoi(argv[1]);
-
     std::vector<int> values(num);
 
     if (rank == 0)
